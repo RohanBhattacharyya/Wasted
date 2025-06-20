@@ -1,16 +1,17 @@
 // ==UserScript==
 // @name        Wasted Away
 // @namespace   Violentmonkey Scripts
-// @match       https://*youtube.com/*
 // @match       https://*reddit.com/*
 // @match       https://*facebook.com/*
 // @match       https://*instagram.com/*
 // @match       https://*x.com/*
+// @license MIT
+
 
 // @grant       none
 // @version     1.0
 // @author      - Rohan Bhattacharyya
-// @description 6/20/2025, 10:25:44 AM
+// @description Adds a small panel that shows you how much time you've wasted on the @match websites, and shows you what you could have done in that time instead.
 // ==/UserScript==
 
 let ticking = false;
